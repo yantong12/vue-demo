@@ -1,20 +1,12 @@
 <template>
   <div class="home">
     <img alt="tongbaba logo" class="user-logo" src="../assets/image/tongbaba.jpeg">
-    <HelloWorld msg="hello word"/>
+    <h2>欢迎来到童爸爸的世界！</h2>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style lang="scss" scoped>
