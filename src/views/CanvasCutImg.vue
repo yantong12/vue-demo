@@ -60,7 +60,7 @@ export default {
     imgObj.crossOrigin="*";
     //获取canvas元素
     //创建image对象
-    imgObj.src = "http://img2.soyoung.com/hospital/20181019/1/55917da55bfa26043d5dbdebe5f750b2.png";
+    imgObj.src = "https://tbbstatic.oss-cn-beijing.aliyuncs.com/cutImg.png";
     //待图片加载完后，将其显示在canvas上
     imgObj.onload = function(){
       let height = (300/imgObj.naturalWidth)*imgObj.naturalHeight
