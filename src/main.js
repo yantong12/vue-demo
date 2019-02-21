@@ -5,6 +5,10 @@ import store from './store'
 import './registerServiceWorker'
 import './plugins/element.js'
 
+import './mock'
+
+// require('mockjs')
+
 Vue.config.productionTip = false
 
 new Vue({

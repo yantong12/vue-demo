@@ -29,8 +29,6 @@
 
 <script>
 
-import { mapActions } from "vuex";
-
 export default {
   data() {
     return {
@@ -77,11 +75,9 @@ export default {
     deleteRow(index, data) {//删除一行
     let that = this
       if(data.hotspot_id){
-        this.delHot({hotspot_id:data.hotspot_id}).then((res)=>{
-          that.hotDataList.splice(index,1)
-          this.rects.splice(index,1)
-          this.drawRect()
-        })
+        that.hotDataList.splice(index,1)
+        this.rects.splice(index,1)
+        this.drawRect()
       }else{
         this.hotDataList.splice(index,1)
         this.rects.splice(index,1)
