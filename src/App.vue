@@ -30,7 +30,7 @@ html,body {
   color: #2c3e50;
   height: 100%;
 }
-body /deep/ .out-container {
+body .out-container {
     height: 100% !important;
     // margin-bottom: 40px;
   }
